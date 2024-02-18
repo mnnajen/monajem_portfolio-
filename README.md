@@ -16,11 +16,11 @@ This dataset is useful for analyzing car sales trends over time and evaluating t
 
 ## cleaning data 
 
- [link for SQL CLEANING](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20sales%20cleaning.txt) 
+ [link for SQL CLEANING Queries](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20sales%20cleaning.txt) 
 
 ## Analyzing data 
 
-[link for SQL Analyzing](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20data%20exploration.txt) 
+[link for SQL Analyzing Queries](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20data%20exploration.txt) 
 
 ## Tableau VIZ (dashboard)
 
