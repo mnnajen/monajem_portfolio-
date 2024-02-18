@@ -23,10 +23,12 @@ This dataset is useful for analyzing car sales trends over time and evaluating t
 [link for SQL Analyzing](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20data%20exploration.txt) 
 
 ## Tableau VIZ (dashboard)
-<img width="729" alt="Capture read me" src="https://github.com/mnnajen/monajem_portfolio-/assets/155858665/22a0523d-e5f3-4fdf-982e-4615dfa26e15">
+
+<img width="750" alt="Capture cas sales 2" src="https://github.com/mnnajen/monajem_portfolio-/assets/155858665/b4e9e03c-f3c1-4822-88e7-69f7ba5cfe94">
 
 ## recommendation
 ##### Total sales by company 
+
 <img width="386" alt="total sales by company" src="https://github.com/mnnajen/monajem_portfolio-/assets/155858665/ff7cfd8b-dbb3-4f1c-9c1b-3af0eeee61e5">
 
 The bar graph shows the total sales by five different companies: Honda, Chevrolet, Toyota, Ford, and Nissan. Here's the interpretation of the data:
@@ -40,6 +42,7 @@ The bar graph shows the total sales by five different companies: Honda, Chevrole
 This graph provides a snapshot of sales data at a point in time, and trends over time are also crucial for making informed recommendations. It's important for each company to analyze historical data and trends to understand their trajectory and the effectiveness of their strategies.
 
 ##### sales trend over months 
+
 <img width="696" alt="sales trend" src="https://github.com/mnnajen/monajem_portfolio-/assets/155858665/0f2e8591-9cdd-4cc5-8f6a-5adc6877c4cd">
 
 1- The line graph  shows the sales trend over months for five car makers: Chevrolet, Ford, Honda, Nissan, and Toyota from May 2022 to May 2023.
