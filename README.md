@@ -3,8 +3,8 @@
 #### full name: Najem Mohamed
 #### Email: n.simorj@gmail.com
 #### Tableau profile:https://public.tableau.com/app/profile/mohamed.najem/vizzes
-#### linkdin:https://www.linkedin.com/in/mohamed-najem-943a96136/
-#### link data source:https://www.kaggle.com/datasets/suraj520/car-sales-data
+#### linkedin:https://www.linkedin.com/in/mohamed-najem-943a96136/
+#### link data source(Kaggle):https://www.kaggle.com/datasets/suraj520/car-sales-data
 
 ## Project description 
 The "Car Sales Data" dataset is a tabular dataset that contains 2,500,000 rows of information on car sales from a car dealership over the course of a year. The dataset includes nine columns of data for each car sale. The first column, "Date," represents the date on which the car sale was made. The second column, "Salesperson," provides the name of the salesperson who made the sale. The third column, "Customer Name," provides the name of the customer who purchased the car.
