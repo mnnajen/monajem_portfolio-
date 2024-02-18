@@ -48,6 +48,7 @@ This graph provides a snapshot of sales data at a point in time, and trends over
 
 1- The line graph  shows the sales trend over months for five car makers: Chevrolet, Ford, Honda, Nissan, and Toyota from May 2022 to May 2023.
 From May 2022 to around January 2023, all companies show relatively stable sales trends, with very little variation month-to-month. The sales figures for all companies seem to be hovering around the $1,000,000,000 mark.
+
 2- There is a noticeable decline in sales starting around February 2023, which becomes quite steep as it approaches May 2023.
 
 For the company that experienced the sales drop, it's especially urgent to conduct a deep analysis of the factors leading to the decrease and to develop immediate strategies to counteract this trend. For the others, while the stability is good, they should prepare for potential market changes that could affect their sales in the future.
