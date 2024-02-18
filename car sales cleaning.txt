@@ -1,0 +1,61 @@
+--cleaning exploration--
+
+-- overview on data 
+
+select *
+
+from dbo.car_sales
+
+-- formating date 
+
+select CONVERT(date,Date) as date
+
+from dbo.car_sales
+
+-- update date 
+
+update dbo.car_sales
+
+set Date = CONVERT(date,Date) 
+
+-- looking for duplicat values (car maker)
+
+select distinct Car_Make
+
+from dbo.car_sales
+
+-- looking for duplicat values (car model )
+
+select distinct Car_Model
+
+from dbo.car_sales
+
+-- looking for duplicat values (car year )
+
+select distinct Car_Year
+
+from dbo.car_sales
+
+order by Car_Year asc 
+
+--find out null values over data / result is 0 null value "clean data"
+
+select Date,Salesperson,Customer_Name,Car_Make,Car_Model,Car_Year,Sale_Price,Commission_Rate,Commission_Earned
+
+from dbo.car_sales
+
+where Date is null
+and Salesperson is null
+and Customer_Name is null 
+and Car_Make is null 
+and Car_Model is null 
+and Car_Year is null 
+and Sale_Price is null 
+and Commission_Rate is null 
+and Commission_Earned is null 
+
+-- i have to remove 'car_model' because the informations are not correct and i can't modifier them (no source)
+
+alter table dbo.car_sales
+
+drop column car_mo

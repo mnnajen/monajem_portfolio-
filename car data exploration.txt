@@ -1,0 +1,63 @@
+-- data exploration--
+
+-- overview on data 
+
+select *
+
+from dbo.car_sales
+
+-- busines overview
+
+select min(Date) as start_date,
+MAX(Date) as end_date ,
+count(distinct Salesperson) as number_of_saler,
+count(distinct Customer_Name) as number_of_customer,
+count(distinct Car_Make) as number_companies, 
+sum(Sale_Price) as total_sales,
+round(avg(Commission_Rate),2) as average_commission_rate,
+round(sum(Commission_Earned),2) as total_commission_earned
+from dbo.car_sales
+
+--sales trend over months  
+
+select DATEPART(MONTH,Date) as month,
+
+sum(Sale_Price) as total_sales
+
+from dbo.car_sales
+
+group by DATEPART(MONTH,Date) 
+
+order by sum(Sale_Price) desc
+
+-- total sales by companie 
+
+select Car_Make as companies,sum(Sale_Price) as total_sales_by_companie 
+
+from dbo.car_sales
+
+group by Car_Make
+
+order by sum(Sale_Price) desc 
+
+-- top 10  saler with commission earned 
+
+select top 10 Seller,
+
+sum(Sale_Price) as sales_amount , 
+
+round(sum(Commission_Earned),0) as commission_earned 
+
+from dbo.car_sales
+
+group by Salesperson
+
+order by sum(Sale_Price) desc 
+
+-- the max and min sales price 
+
+select max(Sale_Price) as max_price , 
+
+min(Sale_Price) as min_price 
+
+from dbo.car_sales
