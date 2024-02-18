@@ -23,7 +23,7 @@ This dataset is useful for analyzing car sales trends over time and evaluating t
 [link for SQL Analyzing](https://github.com/mnnajen/monajem_portfolio-/blob/main/car%20data%20exploration.txt) 
 
 ## Tableau VIZ (dashboard)
-![Uploading car s[car sales cleaning.txt](https://github.com/mnnajen/monajem_portfolio-/files/14323578/car.sales.cleaning.txt)ales Dashboard 1 (2).png…]()
+<img width="729" alt="Capture read me" src="https://github.com/mnnajen/monajem_portfolio-/assets/155858665/22a0523d-e5f3-4fdf-982e-4615dfa26e15">
 
 ## recommendation
 ##### Total sales by company 
